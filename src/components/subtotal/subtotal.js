@@ -45,7 +45,8 @@ export default function SubTotal() {
           renderText={(value) => (
             <>
               <p>
-                Subtotal({basket.length} items) :<strong>{value}</strong>
+                Subtotal({basket.length} items) :
+                <strong>{console.log(value)}</strong>
               </p>
               <small className="subtotal-gift">
                 <input type="checkbox" /> this order contains a gift
